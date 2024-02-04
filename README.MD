@@ -14,7 +14,7 @@
 
 1. Склонируйте репозиторий с помощью команды:
 
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/savon01/Flask.git
 
 2. Перейдите в каталог проекта:
    cd Flask_test
