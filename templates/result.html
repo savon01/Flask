@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Результат</h2>
+                <p class="card-text">Имя: {{ name }}</p>
+                <p class="card-text">Ожидаемый возраст: {{ age }}</p>
+                <a href="{{ url_for('predict_age') }}" class="card-link">На главную</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

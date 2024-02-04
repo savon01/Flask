@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Имени {{ name }} нет в базе</h2>
+                <p class="card-text">Введите коректно имя</p>
+                <a href="{{ url_for('predict_age') }}" class="card-link">Попробовать снова</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
